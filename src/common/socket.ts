@@ -22,7 +22,7 @@ export default class SocketServer {
 
                 // globals socket middlewares
 
-                socket.use(([event, ...args], next)=>Authorization.handleUser([event, ...args], next, socket));
+                socket.use((args, next)=>Authorization.handleUser(args, next, socket));
                 socket.on("error", (err)=>this.handleErrors(err, socket));
 
                 // handle socket instantiations
