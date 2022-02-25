@@ -26,9 +26,10 @@ the  **socket server** entry point
 application configurations and server instantiation
 
 In this folder you can see:
-    - authorization.ts : Handle middleware for user/socket security checks
-    - socket.ts here we can register all our controller here and our socket server listerners
-    - We have app.ts, server.ts and config.ts for the express server and the configurations
+
+- authorization.ts : Handle middleware for user/socket security checks
+- socket.ts here we can register all our controller here and our socket server listerners
+- We have app.ts, server.ts and config.ts for the express server and the configurations
 
 
 
