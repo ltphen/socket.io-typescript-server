@@ -5,8 +5,6 @@ export default class ChatController extends Controller{
 
     constructor(args: Contructor){
         super(args)
-        this.socket = args.socket;
-        this.io = args.io;
         this.sendMessage()
     }
 

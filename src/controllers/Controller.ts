@@ -17,7 +17,8 @@ export default class Controller {
     protected io: Server | undefined;
 
     constructor(args: Contructor){
-
+        this.socket = args.socket;
+        this.io = args.io;
     }
 
 }
