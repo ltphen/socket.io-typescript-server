@@ -9,8 +9,6 @@ export interface Contructor{
 
 
 
-// This is not used at the moment
-
 export default class Controller {
 
     protected socket: Socket | undefined;
