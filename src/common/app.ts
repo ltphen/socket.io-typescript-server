@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from 'express';
+import express, { Express } from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import * as path from 'path';
@@ -29,7 +29,7 @@ export const applyMiddlewares = (app : Express) => {
 
 
     //Routes inclusion
-    const routing = express();
+    //const routing = express();
 
 
 }

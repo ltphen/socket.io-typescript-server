@@ -1,6 +1,5 @@
 import {Socket} from "socket.io";
 import {Server} from "socket.io";
-import SocketServer from "./../common/socket";
 import {ClientToServerEvents, InterServerEvents, ServerToClientEvents} from "../types/socket";
 export interface Contructor{
     socket: Socket<ServerToClientEvents, ClientToServerEvents, InterServerEvents, any> | undefined,

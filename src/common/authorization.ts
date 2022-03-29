@@ -1,6 +1,4 @@
-import {server} from "./server"
-import {Server, Socket} from "socket.io";
-import {ClientToServerEvents, InterServerEvents, ServerToClientEvents} from "./../types/socket"
+import {Socket} from "socket.io";
 
 export default class Authorization {
 
@@ -10,10 +8,6 @@ export default class Authorization {
 
         // check the user permission here to send the connection request
         //console.log(socket.request.headers.authorization)
-
-        if (false) {
-            return next(new Error("unauthorized action"));
-        }
         next();
     }
 }
